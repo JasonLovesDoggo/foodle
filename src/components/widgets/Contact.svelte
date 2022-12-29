@@ -6,7 +6,7 @@
     <h1>Contact Me</h1>
     <div id="link_container">
         <a class="twitter" href="https://twitter.com/FoodleTheGame" style="font-size: 20px">Twitter</a>
-        <a href="https://github.com/JasonLovesDoggo/JasonLovesDoggo.github.io/issues/new"
+        <a href="https://github.com/JasonLovesDoggo/foodle/issues/new"
            style="font-size: 20px">Github</a>
     </div>
     <br/>

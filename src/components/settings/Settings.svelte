@@ -76,7 +76,7 @@
         <div class="links">
             <a href="https://www.buymeacoffee.com/JasonLovesDoggo" target="_blank">Support me</a>
             <span on:click={() => dispatch("contact")} style="text-decoration: underline;">Suggest a word</span>
-            <a href="https://github.com/JasonLovesDoggo/JasonLovesDoggo.github.io/issues/new" target="_blank">Report a
+            <a href="https://github.com/JasonLovesDoggo/foodle/issues/new" target="_blank">Report a
                 Bug</a>
         </div>
     </div>

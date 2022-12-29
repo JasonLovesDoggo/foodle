@@ -13,7 +13,7 @@
     //});
 
     async function GetLatestVersion() {    // TODO: change this to the foodle api when ready
-        const data = await fetch(`https://api.github.com/repos/JasonLovesDoggo/JasonLovesDoggo.github.io/releases/latest`, {
+        const data = await fetch(`https://api.github.com/repos/JasonLovesDoggo/foodle/releases/latest`, {
             mode: "cors",
         });
         let json = (await data.json())

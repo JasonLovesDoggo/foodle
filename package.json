@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JasonLovesDoggo/JasonLovesDoggo.github.io.git"
+    "url": "git+https://github.com/JasonLovesDoggo/foodle.git"
   },
   "keywords": [],
   "author": "JasonLovesDoggo",
   "bugs": {
-    "url": "https://github.com/JasonLovesDoggo/JasonLovesDoggo.github.io/issues"
+    "url": "https://github.com/JasonLovesDoggo/foodle/issues"
   },
-  "homepage": "https://github.com/JasonLovesDoggo/JasonLovesDoggo.github.io#readme",
+  "homepage": "https://github.com/JasonLovesDoggo/foodle#readme",
   "devDependencies": {
     "@beyonk/gdpr-cookie-consent-banner": "^9.0.3",
     "@rollup/plugin-commonjs": "^21.0.1",

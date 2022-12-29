@@ -31,7 +31,7 @@ actually_food_words_that_dont_appear_in_the_dictionary_i_used = ['umami', 'rolls
                                                                  'leeks', 'mixer', 'bundt', 'agave', 'melba', 'smore',
                                                                  'babka', 'mezze', 'rosti', 'kugel', 'dolma', 'baker',
                                                                  'enoki', 'glaze', 'limes', 'crema', 'cajun', 'mache',
-                                                                 'aioli']
+                                                                 'aioli', 'takis', 'quail']
 # if I add a ton more words I might turn to a dict with values if it's a food or not
 pure_food_words = ['sushi', 'salad', 'kebab', 'vodka', 'peach', 'sugar', 'brine', 'olive', 'cacao', 'fungi', 'thyme',
                    'mocha', 'apple', 'honey', 'onion', 'icing', 'candy', 'grape', 'trout', 'filet', 'donut', 'bread',
@@ -60,13 +60,12 @@ for word in food_words:
 
 food_words = sorted(food_words)  # sort the list alphabetically
 
-with open('../../api/data/wordlist.json', 'w+') as wlj:
-    json.dump(food_words, wlj)
+#with open('../../api/data/wordlist.json', 'w+') as wlj:
+#    json.dump(food_words, wlj)
 
 results = {"active_words": [], "food": pure_food_words, "words": food_words, "valid": guesses_words}
 
 # dump data into actual file
-
 x = f"""const words =
 {results};
 export default words;"""""
