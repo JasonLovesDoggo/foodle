@@ -40,7 +40,7 @@ pure_food_words = ['sushi', 'salad', 'kebab', 'vodka', 'peach', 'sugar', 'brine'
                    'pasta', 'basil', 'taffy', 'wafer', 'bacon', 'wheat', 'berry', 'sauce', 'fruit', 'curry', 'pecan',
                    'latte', 'lemon', 'fudge', 'guava', 'beets', 'nacho', 'satay', 'tacos', 'jello', 'chive', 'oreos',
                    'bhaji', 'torte', 'ugali', 'beans', 'ranch', 'mochi', 'latke', 'queso', 'fries', 'mints', 'dates',
-                   'prune', 'rujak', 'baozi', 'gnudi', 'unagi', 'kofta', 'leeks', 'smore', 'dolma', 'limes', 'aioli'
+                   'prune', 'rujak', 'baozi', 'gnudi', 'unagi', 'kofta', 'leeks', 'smore', 'dolma', 'limes', 'aioli',
                                                                                                              'babka']  # used for the food only mode
 for word in not_really_food_words:
     food_words.remove(word)
