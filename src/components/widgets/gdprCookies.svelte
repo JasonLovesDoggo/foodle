@@ -42,8 +42,8 @@
       value: true
     },
     statistics: {
-      label: 'statistics cookies',
-      description: 'Used for Statistics purposes. Such as keeping your foodle score',
+      label: 'Statistics cookies',
+      description: 'Used for Statistics purposes. Such as keeping your Foodle score',
       value: true
     },
     analytics: {
