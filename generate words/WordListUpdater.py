@@ -27,7 +27,7 @@ actually_food_words_that_dont_appear_in_the_dictionary_i_used = ['umami', 'rolls
                                                                  'pilaf', 'mochi', 'vegan', 'latke', 'queso', 'curds',
                                                                  'roast', 'fries', 'chard', 'mints', 'minty', 'dates',
                                                                  'clams', 'prune', 'aspic', 'rujak', 'gummy', 'cakes',
-                                                                 'baozi', 'melty', 'cepes', 'gnudi' 'unagi', 'kofta',
+                                                                 'baozi', 'melty', 'cepes', 'gnudi', 'unagi', 'kofta',
                                                                  'leeks', 'mixer', 'bundt', 'agave', 'melba', 'smore',
                                                                  'babka', 'mezze', 'rosti', 'kugel', 'dolma', 'baker',
                                                                  'enoki', 'glaze', 'limes', 'crema', 'cajun', 'mache',
@@ -64,6 +64,11 @@ food_words = sorted(food_words)  # sort the list alphabetically
 #    json.dump(food_words, wlj)
 
 results = {"active_words": [], "food": pure_food_words, "words": food_words, "valid": guesses_words}
+
+for word in guesses_words + pure_food_words + food_words + guesses_words:
+    if len(word) != 5:
+        raise BaseException(f'Word {word} is not 5 letters long')
+
 
 # dump data into actual file
 x = f"""const words =
