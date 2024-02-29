@@ -19,7 +19,7 @@
         let json = (await data.json())
         if (data.ok) {
             githuburl = json['html_url']
-            return await GetChangeLog(json['tag_name']);
+            return json // await GetChangeLog(json['tag_name']);
         }
 
     }
