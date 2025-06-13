@@ -24,8 +24,8 @@
 
     }
 
-    async function GetChangeLog(tag_name) {    // TODO: change this to the foodle api when ready
-        const data = await fetch(`https://jasoncameron.dev/foodle/changelogs/${tag_name}.json`, {
+    async function GetChangeLog(tag_name) {
+        const data = await fetch(`https://cdn.jsdelivr.net/gh/JasonLovesDoggo/foodle@master/changelogs/${tag_name}.json`, {
             cache: 'no-cache'
         });
         if (data.ok) {

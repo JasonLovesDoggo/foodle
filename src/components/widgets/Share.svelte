@@ -11,7 +11,7 @@
 	}/${state.board.words.length}\n\n    ${state.board.state
 		.slice(0, state.guesses)
 		.map((r) => r.join(""))
-		.join("\n    ")}\njasoncameron.dev/foodle/`;
+		.join("\n    ")}\nfoodle.jasoncameron.dev/`;
 </script>
 
 <div
