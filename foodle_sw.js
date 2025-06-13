@@ -1,11 +1,11 @@
 //https://medium.com/notonlycss/turn-your-website-into-a-pwa-6aaecb95f8b9
 const dynamicCacheName = "Img-v2.0";
 const assetsToCache = [
-  "https://jasoncameron.dev/foodle/",
-  "https://jasoncameron.dev/foodle/index.html",
-  "https://jasoncameron.dev/foodle/global.css",
-  "https://jasoncameron.dev/foodle/src/build/bundle.css",
-  "https://jasoncameron.dev/foodle/src/build/bundle.js",
+  "https://foodle.jasoncameron.dev/",
+  "https://foodle.jasoncameron.dev/index.html",
+  "https://foodle.jasoncameron.dev/global.css",
+  "https://foodle.jasoncameron.dev/src/build/bundle.css",
+  "https://foodle.jasoncameron.dev/src/build/bundle.js",
 ];
 const assetsToNOTCache = [
   "https://api.github.com/repos/JasonLovesDoggo/JasonLovesDoggo.github.io/releases/latest",
