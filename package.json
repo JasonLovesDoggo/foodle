@@ -20,28 +20,28 @@
   },
   "homepage": "https://github.com/JasonLovesDoggo/foodle#readme",
   "devDependencies": {
-    "@beyonk/gdpr-cookie-consent-banner": "^9.0.3",
-    "@rollup/plugin-commonjs": "^21.0.1",
-    "@rollup/plugin-node-resolve": "^13.1.3",
-    "@rollup/plugin-typescript": "^8.3.0",
+    "@beyonk/gdpr-cookie-consent-banner": "^9.1.1",
+    "@rollup/plugin-commonjs": "^21.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.5.0",
     "@tsconfig/svelte": "^3.0.0",
-    "js-cookie": "^3.0.1",
-    "rollup": "^2.64.0",
+    "js-cookie": "^3.0.5",
+    "rollup": "^2.79.2",
     "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-livereload": "^2.0.5",
-    "rollup-plugin-svelte": "^7.1.0",
+    "rollup-plugin-svelte": "^7.2.2",
     "rollup-plugin-terser": "^7.0.2",
-    "sass": "^1.48.8",
-    "svelte": "^3.46.2",
-    "svelte-check": "^2.4.5",
-    "svelte-preprocess": "^4.10.2",
-    "tslib": "^2.3.1",
-    "typescript": "^4.5.4"
+    "sass": "^1.89.2",
+    "svelte": "^3.59.2",
+    "svelte-check": "^2.10.3",
+    "svelte-preprocess": "^4.10.7",
+    "tslib": "^2.8.1",
+    "typescript": "^4.9.5"
   },
   "dependencies": {
-    "npm": "^8.5.5",
+    "npm": "^8.19.4",
     "seedrandom": "^3.0.5",
-    "showdown": "^2.0.3",
+    "showdown": "^2.1.0",
     "sirv-cli": "^2.0.2"
   }
 }
